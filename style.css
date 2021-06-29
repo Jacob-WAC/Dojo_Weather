@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arvo", serif;
+}
+
+body {
+  min-height: 1400px;
+}
+
+nav {
+  background: rgba(129, 189, 134, 0.479);
+  align-items: baseline;
+  box-shadow: 3px 3px 5px black;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  align-items: center;
+  width: 100%;
+  z-index: +100;
+  font-size: 3em;
+  padding: 10px;
+}
+
+.nav-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+}
+
+.nav-title {
+  color: rgb(255, 255, 255);
+  overflow: hidden;
+}
+
+.nav-links {
+  display: flex;
+  overflow: hidden;
+}
+
+li {
+  border: 0px solid black;
+  list-style-type: none;
+}
+
+.nav-list {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  margin: 20px;
+}
+
+main {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  font-size: 2em;
+}
+
+.cityBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 4px solid black;
+  padding: 1%;
+}
+
+.tempSelect {
+  display: flex;
+  gap: 10px;
+}
+
+.dailyWeather {
+  display: flex;
+  justify-content: space-between;
+}
+
+.weatherContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(223, 223, 223);
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 20%;
+  gap: 80px;
+  padding: 40px;
+  font-size: 1.5em;
+}
+
+.weatherContainer img {
+  border-radius: 50%;
+}
+
+.dailyTemp {
+  display: flex;
+  gap: 40px;
+}
+
+.high {
+  color: red;
+}
+
+.low {
+  color: blue;
+}
+
+.cookie {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 2em;
+  border: 5px solid black;
+  padding: 50px;
+  background-color: rgb(223, 223, 223);
+  text-align: center;
+  position: fixed;
+  left: 15%;
+  bottom: 1%;
+}
+
+.cookie img {
+  width: 200px;
+}
+
+.btn {
+  background-color: rgba(129, 189, 134, 0.479);
+  border: 2px solid rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  box-shadow: 10px 5px 5px black;
+  cursor: pointer;
+  padding: 2% 5%;
+}
+
+.btn:active {
+  transition: 0.2s;
+  background-color: white;
+  color: rgb(11, 79, 204);
+  box-shadow: 3px 3px 5px black;
+}
